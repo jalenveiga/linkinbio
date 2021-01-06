@@ -7,7 +7,7 @@
 	--bright-color-2: #b65149;
 	--bright-color-3: #cb8655;
 	--bright-color-4: #f2a36e;
-	--bright-color-5: #d3661d;
+	
 }
 
 body {
@@ -90,7 +90,4 @@ a:hover {
 
 .verylight {
 	background: var(--bright-color-4);
-}
-.darkmedium {
-	background: var(--bright-color-5);
 }
