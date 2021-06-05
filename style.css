@@ -1,19 +1,19 @@
 /* color palette from https://www.color-hex.com/color-palettes */
 :root {
-	--darkest-color: #f2d1a9;
+	--darkest-color: #ebccb0;
 	--lightest-color: #ffffff;
 	--highlight-color:#ffffff;
-	--bright-color-1: #de7c59;
-	--bright-color-2: #b65149;
-	--bright-color-3: #cb8655;
-	--bright-color-4: #f2a36e;
+	--bright-color-1: #BD7D56;
+	--bright-color-2: #6d2f18;
+	--bright-color-3: #E0996F;
+	--bright-color-4: #e5a88b;
 	
 }
 
 body {
 	background: var(--darkest-color);
 	color: var(--lightest-color);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .container {
