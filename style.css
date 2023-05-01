@@ -1,18 +1,21 @@
 /* color palette from https://www.color-hex.com/color-palettes */
 :root {
-	--darkest-color: #ebccb0;
+	--darkest-color: #cfdacb;
 	--lightest-color: #ffffff;
-	--highlight-color:#ffffff;
-	--bright-color-1: #BD7D56;
-	--bright-color-2: #6d2f18;
-	--bright-color-3: #E0996F;
-	--bright-color-4: #e5a88b;
-	
+	--highlight-color: #ffffff;
+	--bright-color-1: #a9b1a6;
+	--bright-color-2: #8ca3a6;
+	--bright-color-3: #a18585;
+	--bright-color-4: #6c5555;
+
 }
 
 body {
-	background: var(--darkest-color);
-	color: var(--lightest-color);
+	background: url(bckgrnd.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: white;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -36,10 +39,10 @@ body {
 }
 
 .profile-pic {
-	display: inline; 
+	display: block;
 	margin: 0 auto;
-	height: 100%;
-	width: 110%;
+	height: 110%;
+	width: 100%;
 }
 
 a {
@@ -60,7 +63,7 @@ a {
 	padding: 15px;
 	text-align: center;
 	transition: all 0.15s;
-	border-radius: 2px;
+	border-radius: 25px;
 }
 
 .link-list-item:hover,
